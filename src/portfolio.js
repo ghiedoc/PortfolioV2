@@ -217,8 +217,8 @@ const degrees = {
       title: "National University-Manila",
       subtitle:
         "Bachelor in Information Technology Major in Mobile and Web Applications",
-      logo_path: "ssec.png",
-      alt_name: "SSEC",
+      logo_path: "num.png",
+      alt_name: "NUM",
       duration: "2018 - 2022",
       descriptions: [
         "⚡ I am an IT fresh graduate.",
@@ -230,13 +230,13 @@ const degrees = {
     {
       title: "University of Perpetual Help System DALTA - Molino",
       subtitle: "TECHVOC - ICT",
-      logo_path: "ssgandhy.png",
-      alt_name: "SSGC",
+      logo_path: "uphsdm.png",
+      alt_name: "UPHSDM",
       duration: "2017 - 2018",
       descriptions: [
         "⚡ Took Technical-Vocational program that focus on Java programming.",
       ],
-      website_link: "",
+      website_link: "https://perpetualdalta.edu.ph/molino-2/",
     },
   ],
 };
@@ -465,35 +465,31 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "AutomateInstaPyBot",
-      url: "https://github.com/harikanani/AutomateInstaPyBot",
+      name: "QSelf-Health Check",
+      url: "https://github.com/ghiedoc/QSelf--Health-Check",
       description:
-        "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
+        "A mobile application that monitors the health of a person arriving at an airport terminal from overseas that will need to undergo within 14 days for self-quarantine.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "Flutter",
+          iconifyClass: "logos-flutter",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
         },
       ],
     },
     {
       id: "1",
-      name: "react-twitter-clone",
-      url: "https://github.com/harikanani/react-twitter-clone",
+      name: "Mathsteroids",
+      url: "https://github.com/ghiedoc/Mathsteroids",
       description:
-        "A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.",
+        "A mobile android game that lets you hone your multiplication skills. It has three stages where it indicates the difficulty.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
+          name: "Java",
+          iconifyClass: "logos-java",
         },
         {
           name: "Firebase",
@@ -503,277 +499,65 @@ const projects = {
     },
     {
       id: "2",
-      name: "node-blockchain",
-      url: "https://github.com/harikanani/node-blockchain",
+      name: "Metroute - A Bus Booking System",
+      url: "https://github.com/ghiedoc/bus-booking-system",
       description:
-        "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
+        "Metroute is a developed Java Application that is responsible for helping the commuters to administer their seat reservation on preferred bus type from different destination and time. ",
       languages: [
         {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "TypeScript",
-          iconifyClass: "logos-typescript",
+          name: "Java",
+          iconifyClass: "logos-java",
         },
       ],
     },
     {
       id: "3",
-      name: "top-crypto-gainers",
-      url: "https://github.com/harikanani/top-crypto-gainers",
+      name: "Dental Clinic Appointment Booking",
+      url: "https://github.com/ghiedoc/security-web-app",
       description:
-        "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
+        "Healthy Smile is a dental clinic web application that is made to make the booking of appointment of the dental clinic services online.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "Java",
+          iconifyClass: "logos-java",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "NU Ready",
+      url: "",
+      description:
+        "A mobile and web application for emergency alert in National University-Manila",
+      languages: [
+        {
+          name: "Flutter",
+          iconifyClass: "logos-flutter",
         },
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
         },
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "Heroku",
+          iconifyClass: "logos-heroku",
         },
         {
           name: "ReactJS",
           iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "personal-portfolio",
-      url: "https://github.com/harikanani/personal-portfolio",
-      description:
-        "A simple command line interface based quiz app to know more about me :).",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "node_express_crud_api_starter",
-      url: "https://github.com/harikanani/node_express_crud_api_starter",
-      description: "Simple NodeJS Express CRUD Operations API starter.",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "node-web-scrapper",
-      url: "https://github.com/harikanani/node-web-scrapper",
-      description:
-        "A Simple web scrapper that scrap the information of amazon products such as price.It also scrap Wikipedia Data such as birthdate.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
         },
       ],
     },
     {
       id: "5",
-      name: "harikanani.github.io",
-      url: "https://github.com/harikanani/harikanani.github.io",
+      name: "SSP Modification",
+      url: "",
       description:
-        "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
+        "A project made by interns to update the Service Status Portal to get the latest information on the services owned by the GIS department pointing to Site24x7.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Automate Attendace",
-      url: "https://github.com/harikanani/Node_Python",
-      description: "Automation of Online Attendance using node js and python",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Automate Discord Bot",
-      url: "https://github.com/harikanani/AutomateDiscordBot",
-      description:
-        "A Discord Bot to send Automatic messages to serer channel in regular time difference.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Python Selenium",
-          iconifyClass: "logos-selenium",
-        },
-        {
-          name: "Chromium Browser",
-          iconifyClass: "openmoji-chromium",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Flask Blog",
-      url: "https://github.com/harikanani/flask_blog",
-      description: "A Simple Blog Web Application made using Flask Framework",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Netflix top series",
-      url: "https://github.com/harikanani/netflix-top-series",
-      description: "List of Top Netflix Series which is deployed to vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "COVID-19 Tracker",
-      url: "https://github.com/harikanani/Covid19TrackerReact",
-      description:
-        "Simple Covid-19 Tracker made using React and deployed to Vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Food Order Static Website",
-      url: "https://github.com/harikanani/food-order-website",
-      description:
-        "A simple static website related to food restaurants service. this is reasponsive as well.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "PHP",
-          iconifyClass: "logos-php",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "NFT Launchpad",
-      url: "https://deliquescent-cents.000webhostapp.com/",
-      description: "NFT Launchpad crypto site portfolio",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
+          name: "AWS",
+          iconifyClass: "logos-aws",
         },
       ],
     },
