@@ -15,7 +15,8 @@ const greeting = {
   nickname: "harry / picleric",
   full_name: "Gillian Joanna Doctor",
   subTitle: "IT Operations, UI/UX Designer, Frontend Developer.",
-  resumeLink: "",
+  resumeLink:
+    "https://www.dropbox.com/s/f0f0n8uvos11jb9/Gillian%20Joanna%20Doctor%20-%20Resume.pdf?dl=0",
   mail: "gillianj.doctor@gmail.com",
 };
 
@@ -102,9 +103,9 @@ const skills = {
       title: "Frontend Developer",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Experience developing modules necessary for the website",
+        "⚡ Experience creating a mock-up design for the application project",
+        "⚡ Experience with ReactJS and Flutter",
       ],
       softwareSkills: [
         {
@@ -244,70 +245,28 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#47A048",
+      title: "AWS Discovery Day Workshop",
+      subtitle: "Virtual Instructor-Led training (VILT)",
+      logo_path: "aws.png",
+      certificate_link: "",
+      alt_name: "AWS Discovery",
+      color_code: "#ffc475",
     },
     {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
+      title: "Software Testing Basics: Process to deliver Quality",
+      subtitle: "Webinar initiated by the DICT Luzon Cluster 3-Marinduque",
+      logo_path: "softesting.png",
+      certificate_link: "",
+      alt_name: "software testing",
       color_code: "#E2405F",
     },
     {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#F6B808",
-      color_code: "#47A048",
-    },
-    {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
-    },
-    {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "flutter.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
+      title: "National Certificate III",
+      subtitle: "TESDA",
+      logo_path: "tesda.png",
+      certificate_link: "",
+      alt_name: "TESDA",
+      color_code: "#1A51A3",
     },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
@@ -324,9 +283,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Works and Internship",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've completed two internships. I've done projects mostly by group. I am now looking for a job.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -335,15 +294,15 @@ const experience = {
         {
           title: "Infrastructure Service Operations (Intern)",
           company: "Trend Micro Inc.",
-          company_url: "",
-          logo_path: "valora.jpg",
+          company_url: "https://www.trendmicro.com/en_ph/business.html",
+          logo_path: "trend.png",
           duration: "Feb 2022 - Apr 2022",
           location: "Work From Home",
-          description: `Train, manage and provide guidance to junior software development staff.
-          Work closely with the Project Manager and Team Leads on change request functions.
-          Develops new and maintains existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
+          description: `Monitored incidents and issue detection using Site 24x7 and Zabbix.
+          Utilized JIRA for case/ticket handling.
+          Maintained and monitored servers using VMware vSphere and RDP.
+          Addressed account requests such as creating account and resetting the password using the windows server.
+          Modified service status portal using Python, AWS Lambda, API Gateway, AWS S3, webhooks, and Site24x7.
           `,
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
@@ -351,12 +310,12 @@ const experience = {
         {
           title: "Cyber Threat Hunter (Intern)",
           company: "Trend Micro Inc.",
-          company_url: "",
-          logo_path: "nightowls.jpg",
+          company_url: "https://www.trendmicro.com/en_ph/business.html",
+          logo_path: "trend.png",
           duration: "Nov 2021 - Feb 2022",
           location: "Work From Home",
-          description: `Work closely with the Client and Team on change request functions.
-          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
+          description: `Utilized VMware for checking and visiting the collected harmful URLs to verify if it is phishing or not.
+          Collected and checked URLs from different websites to determine if they were a scam, phishing, or normal.
           `,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
@@ -448,17 +407,17 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
+    profile_image_path: "gillian.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
-    avatar_image_path: "blogs_image.svg",
-  },
+  // blogSection: {
+  //   title: "Blogs",
+  //   subtitle:
+  //     "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
+  //   link: "https://twitter.com/Harikrushn9",
+  //   avatar_image_path: "blogs_image.svg",
+  // },
 };
 
 const projects = {
